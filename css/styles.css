@@ -1,0 +1,50 @@
+body {
+  color: #222;
+  background: #fff;
+}
+a {
+  color: #0033cc;
+}
+#footer{
+    background-color: aliceblue;
+    max-width: 960px;
+	margin: auto;
+	height: 30px;
+}
+body.dark-theme {
+  color: #eee;
+  background: #121212;
+}
+body.dark-theme a {
+  color: #809fff;
+}
+body.dark-theme #footer{
+    background-color: #222222;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+    font-size: 18px;
+}
+h2, h3 {
+    text-align: center;
+}
+.image {
+    width: 60%;
+    display: block;
+    margin: 60px auto 50px;
+    max-width: 400px;
+    max-height: 500px;
+}
+#position_btheme{
+    position: fixed;
+	right: 0;
+	top: 10px;
+}
+
+#socialmedia{
+    float: right;
+}
+#by{
+    float: left;
+}
